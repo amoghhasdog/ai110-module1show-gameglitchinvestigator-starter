@@ -25,28 +25,25 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📝 Document Your Experience
 
-- [ ] Describe the game's purpose.
-- [ ] Detail which bugs you found.
-- [ ] Explain what fixes you applied.
+Purpose: A number guessing game where you try to find the secret number before running out of attempts.
+
+Bugs found: Attempts count didn't match between sidebar and main screen and Enter didn't submit guesses.
+
+Fixes applied: Started attempts at 0 and wrapped the input in a st.form so Enter works.
 
 ## 📸 Demo Walkthrough
 
-Describe your fixed game in numbered steps so a reader can follow along without watching a video:
-
-1. <!-- Describe this step -->
-2. <!-- Describe this step -->
-3. <!-- Describe this step -->
-4. <!-- Describe this step -->
-5. <!-- Add more steps as needed -->
-
-**Screenshot** *(optional)*: <!-- Insert a screenshot of your fixed, winning game here -->
+1. Open the app and pick a difficulty (e.g. Normal).
+2. Type a guess (like 40) and press Enter or click Submit.
+3. Game says "Too Low" or "Too High" with the correct hint.
+4. Keep guessing until you win or run out of attempts.
+5. Click New Game to start over.
 
 ## 🧪 Test Results
 
 ```
-# Paste your pytest output here, e.g.:
-# pytest tests/
-# ========================= X passed in 0.XXs =========================
+pytest tests/
+9 passed in 0.03s
 ```
 
 ## 🚀 Stretch Features
