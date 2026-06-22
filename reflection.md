@@ -8,15 +8,17 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 - List at least two concrete bugs you noticed at the start  
   (for example: "the hints were backwards").
 
+  Upon first running the game, one thing caught my eye immediately. I noticed that it said "Attempts left: 7" in the blue. However, on the left panel, it said "Attempts allowed: 8." Another I noticed as I started testing the game was pressing the Enter key didn't actually enter the number input. Nothing would happen.
+
 **Bug Reproduction Log**
 
 Document at least 3 bugs you found. Add rows as needed.
 
 | Input | Expected Behavior | Actual Behavior | Console Output / Error |
 |-------|-------------------|-----------------|------------------------|
-| | | | |
-| | | | |
-| | | | |
+| Opening the game for the first time. | Polished, complete menu free from errors. | Showed 8 attempts on the left and 7 attempts on the main screen. | Displayed allowed attempts should be consistent throughout game. |
+| Pressing Enter on number input. | Enters number as guess. | Nothing occurs. | Number should be inputted as a guess but instead nothing happens. |
+| Clicking New Game button. | A new game starts, which allows us to enter new guesses for the new number. | Nothing occurs. | Clicking New Game should allow me to make guesses for the new number, but I cant't.|
 
 ---
 
